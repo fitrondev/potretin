@@ -17,6 +17,7 @@
     "^react$",
     "^next(.*)$",
     "<THIRD_PARTY_MODULES>",
+    "^@/constants/(.*)$",
     "^@/(.*)$",
     "^@/components/(.*)$",
     "^@/lib/(.*)$",
