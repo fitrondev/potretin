@@ -5,7 +5,7 @@ import NavLinks from "./NavLinks";
 
 const Header = () => {
   return (
-    <header>
+    <header className="bg-background sticky top-0 z-50 w-full border-b">
       <div className="container flex h-16 items-center justify-between">
         <Logo />
 
