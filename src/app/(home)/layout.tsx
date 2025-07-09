@@ -1,4 +1,3 @@
-import Logo from "@/components/common/Logo";
 import Footer from "@/components/layouts/Footer";
 import Header from "@/components/layouts/Header";
 
@@ -8,12 +7,11 @@ type HomeLayoutProps = {
 
 const HomeLayout = ({ children }: HomeLayoutProps) => {
   return (
-    <div>
+    <>
       <Header />
-      <Logo />
-      {children}
+      <main>{children}</main>
       <Footer />
-    </div>
+    </>
   );
 };
 export default HomeLayout;
