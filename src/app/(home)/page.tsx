@@ -1,10 +1,10 @@
-import { Button } from "@/components/ui/button";
+import Hero from "@/components/layouts/Hero";
 
 const Home = () => {
   return (
-    <div>
-      <Button>Testing</Button>
-    </div>
+    <main>
+      <Hero />
+    </main>
   );
 };
 export default Home;

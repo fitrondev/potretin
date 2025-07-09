@@ -9,7 +9,7 @@ const HomeLayout = ({ children }: HomeLayoutProps) => {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      {children}
       <Footer />
     </>
   );
