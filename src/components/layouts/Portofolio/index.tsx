@@ -4,7 +4,7 @@ import PortofolioCard from "./PortofolioCard";
 
 const Portofolio = () => {
   return (
-    <section className="py-16 lg:py-24">
+    <section className="py-10 md:py-14">
       <div className="container space-y-8">
         <SectionTitle
           title="Portofolio & Gallery"
