@@ -301,3 +301,82 @@ export const portofolio_data: PortofolioItem[] = [
     ],
   },
 ];
+
+export interface TestimonialItem {
+  id: number;
+  name: string;
+  role: string;
+  company: string;
+  image_url: string;
+  rating: number;
+  testimonial: string;
+}
+
+export const testimonials_data: TestimonialItem[] = [
+  {
+    id: 1,
+    name: "Sarah Michelle",
+    role: "Bride",
+    company: "Jakarta",
+    image_url:
+      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
+    rating: 5,
+    testimonial:
+      "Fotografer yang luar biasa! Tim mereka berhasil mengabadikan setiap momen berharga di hari pernikahan kami dengan sangat sempurna. Hasilnya melampaui ekspektasi dan sangat natural.",
+  },
+  {
+    id: 2,
+    name: "David Kurniawan",
+    role: "CEO",
+    company: "TechCorp Indonesia",
+    image_url:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    rating: 5,
+    testimonial:
+      "Profesionalisme yang tinggi dalam mengerjakan project fotografi komersial kami. Tim yang sangat responsif dan hasil yang berkualitas tinggi. Sangat merekomendasikan!",
+  },
+  {
+    id: 3,
+    name: "Maya Sari",
+    role: "Marketing Manager",
+    company: "Beauty Brand Co",
+    image_url:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    rating: 5,
+    testimonial:
+      "Hasil fotografi produk yang menakjubkan! Kualitas foto sangat tajam dan lighting yang sempurna membuat produk kami terlihat sangat menarik. Terima kasih atas kerja kerasnya!",
+  },
+  {
+    id: 4,
+    name: "Robert Tan",
+    role: "Event Organizer",
+    company: "Prestige Events",
+    image_url:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    rating: 5,
+    testimonial:
+      "Dokumentasi event yang sangat komprehensif dan berkualitas. Tim fotografer sangat fleksibel dan mampu menangkap momen-momen penting dengan sempurna.",
+  },
+  {
+    id: 5,
+    name: "Lisa Amanda",
+    role: "Influencer",
+    company: "Content Creator",
+    image_url:
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&crop=face",
+    rating: 5,
+    testimonial:
+      "Sesi fotografi potret yang sangat menyenangkan! Fotografer sangat sabar dalam mengarahkan pose dan hasilnya sangat memuaskan untuk kebutuhan konten saya.",
+  },
+  {
+    id: 6,
+    name: "Ahmad Hidayat",
+    role: "Groom",
+    company: "Bandung",
+    image_url:
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+    rating: 5,
+    testimonial:
+      "Pengalaman fotografi pre-wedding yang tidak terlupakan. Tim sangat kreatif dalam memberikan arahan konsep dan hasilnya sangat artistik dan romantis.",
+  },
+];
