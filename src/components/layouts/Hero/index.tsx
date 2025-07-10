@@ -40,6 +40,7 @@ const Hero = () => {
               <Image
                 src={hero_images[0].src}
                 alt={hero_images[0].alt}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 fill
                 className="object-cover"
                 priority
@@ -51,6 +52,7 @@ const Hero = () => {
               <Image
                 src={hero_images[1].src}
                 alt={hero_images[1].alt}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 fill
                 className="object-cover"
               />
@@ -61,6 +63,7 @@ const Hero = () => {
               <Image
                 src={hero_images[2].src}
                 alt={hero_images[2].alt}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 fill
                 className="object-cover"
               />
