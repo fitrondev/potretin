@@ -21,24 +21,28 @@ export interface NavItem {
 
 export const nav_links: NavItem[] = [
   {
-    label: "Home",
+    label: "Beranda",
     href: "/",
   },
   {
-    label: "About",
-    href: "/about",
+    label: "Tentang Kami",
+    href: "#about",
   },
   {
-    label: "portofolio",
-    href: "/portofolio",
+    label: "Portofolio",
+    href: "#portofolio",
   },
   {
-    label: "Services",
-    href: "/services",
+    label: "Harga",
+    href: "#pricing",
   },
   {
-    label: "Contact",
-    href: "/contact",
+    label: "Kontak",
+    href: "#contact",
+  },
+  {
+    label: "FAQ",
+    href: "#faq",
   },
 ];
 
@@ -612,7 +616,7 @@ export const footer_data: FooterData = {
   navigation_links: [
     {
       label: "Beranda",
-      href: "#home",
+      href: "/",
     },
     {
       label: "Tentang Kami",
